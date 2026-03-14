@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AerStreamer Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>AerStreamer Web Viewer</h1>
+    <label>Viewer Name <input id="viewerName" placeholder="ops_user_01" /></label>
+    <label>Stream Name <input id="streamName" placeholder="mission_alpha_rgb" /></label>
+    <button id="connectBtn">Connect</button>
+    <section>
+      <h2>Metadata Feed</h2>
+      <pre id="jsonFeed"></pre>
+    </section>
+  </main>
+  <script src="viewer.js"></script>
+</body>
+</html>
